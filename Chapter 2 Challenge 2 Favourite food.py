@@ -7,4 +7,4 @@
 #Favourite food
 meat = input("Enter the name of your favourite meat?:\n")
 veg = input("Enter the name of your favourite veg?:\n")
-print("You like", meat, "and", veg, "!")
+print("You like", meat, "and", veg + "!")
