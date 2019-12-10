@@ -1,5 +1,5 @@
 # Python programming for the Absolute Beginner, Third Edition
-# Chapter 1, Challenge 2
+# Chapter 2, Challenge 2
 
 # Create a list of legal and illegal variable names. Describe why each is either legal or illegal.
 # Next, create a list of "good" and "bad" legal variables names. Describe why each is either a good or bad choice for a variable name. 
