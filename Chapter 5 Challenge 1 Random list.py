@@ -22,5 +22,5 @@ while list:
 
 # Print new list
 print("A mixed up version of the list is", new)
-
-
+rik = "a"
+print(rik)
