@@ -9,6 +9,15 @@
 # the player know if the guess is too high, too low
 # or right on the money
 
+# Dont understand the question!
+
+"""def ask_number():
+    response = None
+    while response not in range(low, high):
+        response = int(input(question))
+    print("You entered a number in given range after", step, "attempts")    
+    return response"""
+
 import random  
 
 print("\tWelcome to 'Guess My Number'!")
@@ -19,15 +28,7 @@ print("Try to guess it in as few attempts as possible.\n")
 the_number = random.randint(1, 100)
 guess = int(input("Take a guess: "))
 tries = 1
-
-def ask_number(question, low, high, step=1):
-    """Ask for a number within a range."""
-    response = None
-    while response not in range(low, high):
-        response = int(input(question))
-    print("You entered a number in given range after", step, "attempts")    
-    return response
-    
+  
 # guessing loop
 while guess != the_number:
     if guess > the_number:
