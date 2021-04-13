@@ -10,17 +10,6 @@
 tree = {"Richard":"Robert", "Gavin":"Colin", "Harrison":"Richard", "Jonathan":"John", "Josepth":"Wieslaw"}
 choice = ""
 
-#print("""Father/Son dictionary
- #     
-  #    0 Quit
-   #   1 Look up a son to find the father
-    #  2 Add a father/Son
-     # 3 Remove a father/son
-      #4 Replace a father/son
-      #""")
-
-#while not choice:
-#    choice = input("Select an option: ")
 def application():
     global choice
     print("""Father/Son dictionary
